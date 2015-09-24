@@ -1,0 +1,34 @@
+{
+  "name": "assets-locator",
+  "version": "1.0.0",
+  "description": "Assets locator for NodeJS",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longlh/assets-locator.git"
+  },
+  "keywords": [
+    "assets",
+    "asset",
+    "static"
+  ],
+  "author": "Luc Hoang Long <d@dapps.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/longlh/assets-locator/issues"
+  },
+  "homepage": "https://github.com/longlh/assets-locator#readme",
+  "dependencies": {
+    "glob": "5.0.14",
+    "lodash": "3.10.1"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jshint": "0.11.3",
+    "grunt-jscs": "2.1.0",
+    "load-grunt-tasks": "3.3.0"
+  }
+}
