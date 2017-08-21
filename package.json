@@ -1,6 +1,6 @@
 {
   "name": "assets-locator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Assets locator for NodeJS",
   "main": "src/main.js",
   "scripts": {
@@ -22,13 +22,13 @@
   },
   "homepage": "https://github.com/longlh/assets-locator#readme",
   "dependencies": {
-    "glob": "5.0.14",
-    "lodash": "3.10.1"
+    "glob": "7.1.2",
+    "lodash": "4.17.4"
   },
   "devDependencies": {
-    "grunt": "0.4.5",
-    "grunt-contrib-jshint": "0.11.3",
-    "grunt-jscs": "2.1.0",
-    "load-grunt-tasks": "3.3.0"
+    "grunt": "1.0.1",
+    "grunt-contrib-jshint": "1.1.0",
+    "grunt-jscs": "3.0.1",
+    "load-grunt-tasks": "3.5.2"
   }
 }

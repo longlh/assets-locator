@@ -7,17 +7,15 @@ var path = require('path');
 function walk(cwd, pattern) {
 	var fullPath = path.resolve(cwd, pattern);
 
-	var defer = Promise.defer();
+	return new Promise((resolve, reject) => {
+		glob(fullPath, function(err, paths) {
+			if (err) {
+				return reject(err);
+			}
 
-	glob(fullPath, function(err, paths) {
-		if (err) {
-			return defer.reject(err);
-		}
-
-		return defer.resolve(paths);
+			return resolve(paths);
+		});
 	});
-
-	return defer.promise;
 }
 
 exports.execute = function(options) {
